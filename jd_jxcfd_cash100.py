@@ -9,7 +9,7 @@ except Exception as e:
     exit(3)  
 
 # 调试
-# 京喜财富岛兑换111红包,看运气
+# 京喜财富岛兑换100红包,看运气
 # 59 59 * * * * new
 # 环境变量wy_debug_pin，多账号用&分割,
 '''
@@ -20,7 +20,7 @@ export wy_debug_pin="jd_997eefxx29"                # 需要请求的账号coooki
 '''
 
 # 环境变量优先于脚本内部变量,不填的项默认脚本内部变量
-wy_debug_url=f'https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1636804796373&ptag=138631.135.2&dwType=3&dwLvl=3&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202111&strPgtimestamp=1636804796104&strPhoneID=3e06201310b55c90&strPgUUNum=88507d9af4ccfaace1b3e76138e9611c&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20211113195956373%3B3809223826488163%3B10032%3Btk01wad4a1ce130nqJk2GqGIzmI3HNLtvTYgObY0j4mDngkMk0T242O4Wn3o%2FxKaURexjotuIWtpnx6mJlfoq3umCUGX%3Be3d37baab41066bf742886a11c10c21787152597efbc834ff5c6ba89d7ef97b4&_=1636804796374&sceneval=2&g_login_type=1&callback=jsonpCBKPP&g_ty=ls'       # 京喜财富岛111红包api
+wy_debug_url=f'https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1636804796373&ptag=138631.135.2&dwType=3&dwLvl=3&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202111&strPgtimestamp=1636804796104&strPhoneID=3e06201310b55c90&strPgUUNum=88507d9af4ccfaace1b3e76138e9611c&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20211113195956373%3B3809223826488163%3B10032%3Btk01wad4a1ce130nqJk2GqGIzmI3HNLtvTYgObY0j4mDngkMk0T242O4Wn3o%2FxKaURexjotuIWtpnx6mJlfoq3umCUGX%3Be3d37baab41066bf742886a11c10c21787152597efbc834ff5c6ba89d7ef97b4&_=1636804796374&sceneval=2&g_login_type=1&callback=jsonpCBKPP&g_ty=ls'       # 京喜财富岛100红包api
 wy_debug_headers={
     'Host':'m.jingxi.com',
     'accept':'*/*',

@@ -452,7 +452,7 @@ async function showMsg() {
 }
 function readShareCode() {
   return new Promise(async resolve => {
-    $.get({url: `http://transfer.n1z.lu/pet`, timeout: 10000}, (err, resp, data) => {
+    $.get({url: `http://transfer.n1231z.lu/pet`, timeout: 10000}, (err, resp, data) => {
       try {
         if (err) {
           console.log(JSON.stringify(err))

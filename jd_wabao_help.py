@@ -8,7 +8,6 @@ new Env('发财挖宝只做任务和内部互助');
 由于每个号只有两次助力机会，所以只助力前两个助力码
 环境变量：JD_COOKIE
 export JD_COOKIE="第1个cookie&第2个cookie"
-地址：https://raw.githubusercontent.com/wuye999/myScripts/main/jd/jd_wabao_help.py
 '''
 import os,json,random,time,re,string,functools,asyncio
 import sys

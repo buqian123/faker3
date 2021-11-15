@@ -405,8 +405,7 @@ def main():
         for cookie in cookie_list:
             helpSign(cookie,inviteCode)
             
-    msg('作者：wuye9999\n')
-    msg('地址:https://github.com/wuye999/myScripts')
+
     if run_send=='yes':
         send('牛牛福利社')   # 通知服务
 

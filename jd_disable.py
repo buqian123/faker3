@@ -10,7 +10,7 @@ import requests
 import time
 
 ip="localhost"
-substr="shufflewzc123123123123123123123123123123123123123_faker2"
+substr="buqian123_faker3"
 
 def loadSend():
     print("加载推送功能")
