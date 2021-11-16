@@ -7,30 +7,20 @@
 ``` 
 ql repo https://ghproxy.com/https://github.com/buqian123/faker3.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendnotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql"
 ```
+
+
+【安装docker、安装2.9.3青龙、配置本仓库，与青蛙开卡仓库】
+
+```
+wget -q https://raw.githubusercontents.com/buqian123/VIP/main/Scripts/sh/ql.sh -O ql.sh && bash ql.sh
 ```
 
-【青龙系列教程】
-https://www.notion.so/Cent-OS-7-6-1c598629675145988b43a37998a1604a
-
-
-
-
-
-## 安装docker 安装2.9.3青龙 配置Faker3仓库，与青蛙开卡仓库
-
-本命令安装青龙2.9.3版本镜像
-
-```jsx
-wget -q https://raw.githubusercontents.com/shufflewzc/VIP/main/Scripts/sh/ql.sh -O ql.sh && bash ql.sh
-```
-
-## NvJdc一键配置
+【NvJdc一键配置】
 
 ```bash
-bash <(curl -sL https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/normal-shell/main/onekey-install-nvjdc.sh)
+bash <(curl -sL https://ghproxy.com/https://raw.githubusercontent.com/buqian123/normal-shell/main/onekey-install-nvjdc.sh)
 ```
-
-## 已安装青龙的用户一键配置代码 配置Faker3仓库助力
+【已安装青龙的用户一键配置代码 配置Faker3仓库助力】
 
 ```jsx
 docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://github.com/shufflewzc/VIP/blob/main/Scripts/sh/1customCDN.sh)"
