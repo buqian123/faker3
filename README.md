@@ -13,14 +13,14 @@ ql repo https://ghproxy.com/https://github.com/buqian123/faker3.git "jd_|jx_|gua
 【安装docker、安装2.9.3青龙、配置本仓库，与青蛙开卡仓库】
 
 ```
-wget -q https://raw.githubusercontents.com/buqian123/VIP/main/Scripts/sh/ql.sh -O ql.sh && bash ql.sh
+wget -q https://ghproxy.com/https://github.com/buqian123/VIP/blob/main/Scripts/sh/ql.sh -O ql.sh && bash ql.sh
 ```
 
 
 【已安装青龙的用户一键配置代码 配置Faker3仓库助力】
 
 ```jsx
-docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://github.com/shufflewzc/VIP/blob/main/Scripts/sh/1customCDN.sh)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://github.com/buqian123/VIP/blob/main/Scripts/sh/1customCDN.sh)"
 ```
 
 
@@ -28,7 +28,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://githu
 【NvJdc一键配置】
 
 ```bash
-bash <(curl -sL https://ghproxy.com/https://raw.githubusercontent.com/buqian123/normal-shell/main/onekey-install-nvjdc.sh)
+bash <(curl -sL https://ghproxy.com/https://github.com/buqian123/VIP/blob/main/Scripts/sh/onekey-install-nvjdc.sh)
 ```
 
 
